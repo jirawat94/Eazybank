@@ -1,0 +1,76 @@
+nav {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+}
+nav img {
+  width: 10%;
+  object-fit: contain;
+}
+nav ul {
+  display: flex;
+  width: 30%;
+
+  justify-content: space-between;
+  padding: 0;
+}
+nav li {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  list-style: none;
+  text-align: center;
+  font-weight: 800;
+  color: #919095;
+}
+.Request_button {
+  width: 165px;
+  height: 45px;
+  border-radius: 25px;
+  margin-top: 12.5px;
+  background: linear-gradient(
+    90deg,
+    rgba(59, 208, 106, 1) 0%,
+    rgba(56, 173, 87, 1) 23%,
+    rgba(44, 186, 200, 1) 100%
+  );
+}
+.Request_button p {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 45px;
+  font-size: 18px;
+  font-weight: 800;
+  color: white;
+}
+nav li:hover {
+  border-width: 0 0 4px 0;
+  border-style: solid;
+  border-image: linear-gradient(
+      90deg,
+      rgba(59, 208, 106, 1) 0%,
+      rgba(56, 173, 87, 1) 23%,
+      rgba(44, 186, 200, 1) 100%
+    )
+    1;
+  cursor: pointer;
+  color: rgb(15, 15, 15);
+}
+
+.Request_button:hover {
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    hwb(139 23% 18% / 0.5) 0%,
+    rgba(56, 173, 87, 0.5) 23%,
+    rgba(44, 187, 200, 0.5) 100%
+  );
+}
+.Request_button p:hover {
+  color: rgb(255, 255, 255);
+}
